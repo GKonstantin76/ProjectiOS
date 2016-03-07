@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9058" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="8hh-Sz-4Ro">
+                            <items>
+                                <tableRow identifier="identCell" id="3Kt-WC-8jQ" customClass="LWORowController">
+                                    <group key="rootItem" width="1" alignment="left" id="b5m-m7-STx">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="eAp-9V-eyq"/>
+                                            <label alignment="right" verticalAlignment="center" text="Label" id="bq0-ys-bNY"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="upi-Oz-vqg" kind="push" id="G6a-xt-rjr"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="lbMark" destination="bq0-ys-bNY" id="lBQ-3c-BWS"/>
+                                        <outlet property="lbName" destination="eAp-9V-eyq" id="Eom-9V-jZK"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tvTable" destination="8hh-Sz-4Ro" id="tLv-D8-3wi"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-44" y="53"/>
+        </scene>
+        <!--identDetailIC-->
+        <scene sceneID="Oay-8f-dm6">
+            <objects>
+                <controller identifier="identDetailIC" id="upi-Oz-vqg" customClass="LWODetailIC">
+                    <items>
+                        <group width="1" alignment="left" id="emG-Yd-sBu">
+                            <items>
+                                <imageView width="16" height="16" alignment="left" id="1Zb-y4-ZzT"/>
+                                <label alignment="center" text="name" id="JGO-Oq-DX9"/>
+                                <label alignment="right" text="mark" id="IRO-hM-3KD"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="age" id="1RT-Xk-dE4"/>
+                        <button width="1" alignment="left" title="updateMark" id="xPh-LA-Ofa">
+                            <connections>
+                                <action selector="updateMark" destination="upi-Oz-vqg" id="DOp-lT-lA3"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imImage" destination="1Zb-y4-ZzT" id="PRa-3T-KKX"/>
+                        <outlet property="lbAge" destination="1RT-Xk-dE4" id="hL7-9Y-acT"/>
+                        <outlet property="lbMark" destination="IRO-hM-3KD" id="3jJ-eP-qv8"/>
+                        <outlet property="lbName" destination="JGO-Oq-DX9" id="dQl-8K-cwv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="155" y="54.5"/>
+        </scene>
+    </scenes>
+</document>

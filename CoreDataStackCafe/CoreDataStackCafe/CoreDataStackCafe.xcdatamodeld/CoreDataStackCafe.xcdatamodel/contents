@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6751" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Count" representedClassName="CountEntity" syncable="YES">
+        <attribute name="cnt" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="countmenu" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Menu" inverseName="menucount" inverseEntity="Menu" syncable="YES"/>
+        <relationship name="countorder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Order" inverseName="ordercount" inverseEntity="Order" syncable="YES"/>
+    </entity>
+    <entity name="Menu" representedClassName="MenuEntity" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="menucount" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Count" inverseName="countmenu" inverseEntity="Count" syncable="YES"/>
+    </entity>
+    <entity name="Order" representedClassName="OrderEntity" syncable="YES">
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="time_begin" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="time_end" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="ordercount" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Count" inverseName="countorder" inverseEntity="Count" syncable="YES"/>
+        <relationship name="ordertable" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table" inverseName="tableorder" inverseEntity="Table" syncable="YES"/>
+    </entity>
+    <entity name="Table" representedClassName="TableEntity" syncable="YES">
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="tableorder" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Order" inverseName="ordertable" inverseEntity="Order" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Count" positionX="-315" positionY="-135" width="128" height="88"/>
+        <element name="Menu" positionX="-531" positionY="-133" width="128" height="88"/>
+        <element name="Order" positionX="-146" positionY="-181" width="128" height="118"/>
+        <element name="Table" positionX="18" positionY="-144" width="128" height="73"/>
+    </elements>
+</model>

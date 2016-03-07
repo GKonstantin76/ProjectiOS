@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E89D6241C6E55320090E4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D6231C6E55320090E4D0 /* main.m */; };
+		7E89D6271C6E55320090E4D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D6261C6E55320090E4D0 /* AppDelegate.m */; };
+		7E89D62A1C6E55320090E4D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D6291C6E55320090E4D0 /* ViewController.m */; };
+		7E89D62D1C6E55320090E4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E89D62B1C6E55320090E4D0 /* Main.storyboard */; };
+		7E89D62F1C6E55320090E4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E89D62E1C6E55320090E4D0 /* Assets.xcassets */; };
+		7E89D6321C6E55320090E4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E89D6301C6E55320090E4D0 /* LaunchScreen.storyboard */; };
+		7E89D6371C6E55330090E4D0 /* LWOListWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E89D6361C6E55330090E4D0 /* LWOListWatch WatchKit App.app */; };
+		7E89D63D1C6E55330090E4D0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E89D63B1C6E55330090E4D0 /* Interface.storyboard */; };
+		7E89D63F1C6E55330090E4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E89D63E1C6E55330090E4D0 /* Assets.xcassets */; };
+		7E89D6461C6E55330090E4D0 /* LWOListWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E89D6451C6E55330090E4D0 /* LWOListWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E89D64C1C6E55330090E4D0 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D64B1C6E55330090E4D0 /* InterfaceController.m */; };
+		7E89D64F1C6E55330090E4D0 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D64E1C6E55330090E4D0 /* ExtensionDelegate.m */; };
+		7E89D6511C6E55330090E4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E89D6501C6E55330090E4D0 /* Assets.xcassets */; };
+		7E89D6621C6E56A80090E4D0 /* LWOPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D6611C6E56A80090E4D0 /* LWOPerson.m */; };
+		7E89D6761C6E5C380090E4D0 /* LWORowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D6751C6E5C380090E4D0 /* LWORowController.m */; };
+		7E89D6791C6E5F840090E4D0 /* LWODetailIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D6781C6E5F840090E4D0 /* LWODetailIC.m */; };
+		7E97FB121C74EED9004367B5 /* LWOPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E89D6611C6E56A80090E4D0 /* LWOPerson.m */; };
+		B51C51101C70BDA300B1D723 /* emo1.png in Resources */ = {isa = PBXBuildFile; fileRef = B51C510D1C70BDA300B1D723 /* emo1.png */; };
+		B51C51111C70BDA300B1D723 /* emo2.png in Resources */ = {isa = PBXBuildFile; fileRef = B51C510E1C70BDA300B1D723 /* emo2.png */; };
+		B51C51121C70BDA300B1D723 /* emo3.png in Resources */ = {isa = PBXBuildFile; fileRef = B51C510F1C70BDA300B1D723 /* emo3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E89D6381C6E55330090E4D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E89D6171C6E55320090E4D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E89D6351C6E55330090E4D0;
+			remoteInfo = "LWOListWatch WatchKit App";
+		};
+		7E89D6471C6E55330090E4D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E89D6171C6E55320090E4D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E89D6441C6E55330090E4D0;
+			remoteInfo = "LWOListWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E89D6581C6E55330090E4D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E89D6461C6E55330090E4D0 /* LWOListWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E89D65C1C6E55330090E4D0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7E89D6371C6E55330090E4D0 /* LWOListWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E89D61F1C6E55320090E4D0 /* LWOListWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWOListWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E89D6231C6E55320090E4D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E89D6251C6E55320090E4D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E89D6261C6E55320090E4D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E89D6281C6E55320090E4D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E89D6291C6E55320090E4D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E89D62C1C6E55320090E4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E89D62E1C6E55320090E4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E89D6311C6E55320090E4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E89D6331C6E55320090E4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E89D6361C6E55330090E4D0 /* LWOListWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LWOListWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E89D63C1C6E55330090E4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7E89D63E1C6E55330090E4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E89D6401C6E55330090E4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E89D6451C6E55330090E4D0 /* LWOListWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LWOListWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E89D64A1C6E55330090E4D0 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		7E89D64B1C6E55330090E4D0 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		7E89D64D1C6E55330090E4D0 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		7E89D64E1C6E55330090E4D0 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		7E89D6501C6E55330090E4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E89D6521C6E55330090E4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E89D6601C6E56A80090E4D0 /* LWOPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWOPerson.h; sourceTree = "<group>"; };
+		7E89D6611C6E56A80090E4D0 /* LWOPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWOPerson.m; sourceTree = "<group>"; };
+		7E89D6741C6E5C380090E4D0 /* LWORowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWORowController.h; sourceTree = "<group>"; };
+		7E89D6751C6E5C380090E4D0 /* LWORowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWORowController.m; sourceTree = "<group>"; };
+		7E89D6771C6E5F840090E4D0 /* LWODetailIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWODetailIC.h; sourceTree = "<group>"; };
+		7E89D6781C6E5F840090E4D0 /* LWODetailIC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWODetailIC.m; sourceTree = "<group>"; };
+		B51C510D1C70BDA300B1D723 /* emo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emo1.png; path = image/emo1.png; sourceTree = SOURCE_ROOT; };
+		B51C510E1C70BDA300B1D723 /* emo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emo2.png; path = image/emo2.png; sourceTree = SOURCE_ROOT; };
+		B51C510F1C70BDA300B1D723 /* emo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emo3.png; path = image/emo3.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E89D61C1C6E55320090E4D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E89D6421C6E55330090E4D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E89D6161C6E55320090E4D0 = {
+			isa = PBXGroup;
+			children = (
+				7E89D6211C6E55320090E4D0 /* LWOListWatch */,
+				7E89D63A1C6E55330090E4D0 /* LWOListWatch WatchKit App */,
+				7E89D6491C6E55330090E4D0 /* LWOListWatch WatchKit Extension */,
+				7E89D6201C6E55320090E4D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E89D6201C6E55320090E4D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E89D61F1C6E55320090E4D0 /* LWOListWatch.app */,
+				7E89D6361C6E55330090E4D0 /* LWOListWatch WatchKit App.app */,
+				7E89D6451C6E55330090E4D0 /* LWOListWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E89D6211C6E55320090E4D0 /* LWOListWatch */ = {
+			isa = PBXGroup;
+			children = (
+				7E89D6251C6E55320090E4D0 /* AppDelegate.h */,
+				7E89D6261C6E55320090E4D0 /* AppDelegate.m */,
+				7E89D6281C6E55320090E4D0 /* ViewController.h */,
+				7E89D6291C6E55320090E4D0 /* ViewController.m */,
+				7E89D62B1C6E55320090E4D0 /* Main.storyboard */,
+				7E89D62E1C6E55320090E4D0 /* Assets.xcassets */,
+				7E89D6301C6E55320090E4D0 /* LaunchScreen.storyboard */,
+				7E89D6331C6E55320090E4D0 /* Info.plist */,
+				7E89D6221C6E55320090E4D0 /* Supporting Files */,
+			);
+			path = LWOListWatch;
+			sourceTree = "<group>";
+		};
+		7E89D6221C6E55320090E4D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E89D6231C6E55320090E4D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E89D63A1C6E55330090E4D0 /* LWOListWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7E89D63B1C6E55330090E4D0 /* Interface.storyboard */,
+				7E89D63E1C6E55330090E4D0 /* Assets.xcassets */,
+				7E89D6401C6E55330090E4D0 /* Info.plist */,
+			);
+			path = "LWOListWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		7E89D6491C6E55330090E4D0 /* LWOListWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B51C510D1C70BDA300B1D723 /* emo1.png */,
+				B51C510E1C70BDA300B1D723 /* emo2.png */,
+				B51C510F1C70BDA300B1D723 /* emo3.png */,
+				7E89D64A1C6E55330090E4D0 /* InterfaceController.h */,
+				7E89D64B1C6E55330090E4D0 /* InterfaceController.m */,
+				7E89D64D1C6E55330090E4D0 /* ExtensionDelegate.h */,
+				7E89D64E1C6E55330090E4D0 /* ExtensionDelegate.m */,
+				7E89D6501C6E55330090E4D0 /* Assets.xcassets */,
+				7E89D6521C6E55330090E4D0 /* Info.plist */,
+				7E89D6601C6E56A80090E4D0 /* LWOPerson.h */,
+				7E89D6611C6E56A80090E4D0 /* LWOPerson.m */,
+				7E89D6741C6E5C380090E4D0 /* LWORowController.h */,
+				7E89D6751C6E5C380090E4D0 /* LWORowController.m */,
+				7E89D6771C6E5F840090E4D0 /* LWODetailIC.h */,
+				7E89D6781C6E5F840090E4D0 /* LWODetailIC.m */,
+			);
+			path = "LWOListWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E89D61E1C6E55320090E4D0 /* LWOListWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E89D65D1C6E55330090E4D0 /* Build configuration list for PBXNativeTarget "LWOListWatch" */;
+			buildPhases = (
+				7E89D61B1C6E55320090E4D0 /* Sources */,
+				7E89D61C1C6E55320090E4D0 /* Frameworks */,
+				7E89D61D1C6E55320090E4D0 /* Resources */,
+				7E89D65C1C6E55330090E4D0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E89D6391C6E55330090E4D0 /* PBXTargetDependency */,
+			);
+			name = LWOListWatch;
+			productName = LWOListWatch;
+			productReference = 7E89D61F1C6E55320090E4D0 /* LWOListWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E89D6351C6E55330090E4D0 /* LWOListWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E89D6591C6E55330090E4D0 /* Build configuration list for PBXNativeTarget "LWOListWatch WatchKit App" */;
+			buildPhases = (
+				7E89D6341C6E55330090E4D0 /* Resources */,
+				7E89D6581C6E55330090E4D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E89D6481C6E55330090E4D0 /* PBXTargetDependency */,
+			);
+			name = "LWOListWatch WatchKit App";
+			productName = "LWOListWatch WatchKit App";
+			productReference = 7E89D6361C6E55330090E4D0 /* LWOListWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7E89D6441C6E55330090E4D0 /* LWOListWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E89D6551C6E55330090E4D0 /* Build configuration list for PBXNativeTarget "LWOListWatch WatchKit Extension" */;
+			buildPhases = (
+				7E89D6411C6E55330090E4D0 /* Sources */,
+				7E89D6421C6E55330090E4D0 /* Frameworks */,
+				7E89D6431C6E55330090E4D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LWOListWatch WatchKit Extension";
+			productName = "LWOListWatch WatchKit Extension";
+			productReference = 7E89D6451C6E55330090E4D0 /* LWOListWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E89D6171C6E55320090E4D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = asp;
+				TargetAttributes = {
+					7E89D61E1C6E55320090E4D0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7E89D6351C6E55330090E4D0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7E89D6441C6E55330090E4D0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E89D61A1C6E55320090E4D0 /* Build configuration list for PBXProject "LWOListWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E89D6161C6E55320090E4D0;
+			productRefGroup = 7E89D6201C6E55320090E4D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E89D61E1C6E55320090E4D0 /* LWOListWatch */,
+				7E89D6351C6E55330090E4D0 /* LWOListWatch WatchKit App */,
+				7E89D6441C6E55330090E4D0 /* LWOListWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E89D61D1C6E55320090E4D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E89D6321C6E55320090E4D0 /* LaunchScreen.storyboard in Resources */,
+				7E89D62F1C6E55320090E4D0 /* Assets.xcassets in Resources */,
+				7E89D62D1C6E55320090E4D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E89D6341C6E55330090E4D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E89D63F1C6E55330090E4D0 /* Assets.xcassets in Resources */,
+				7E89D63D1C6E55330090E4D0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E89D6431C6E55330090E4D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E89D6511C6E55330090E4D0 /* Assets.xcassets in Resources */,
+				B51C51101C70BDA300B1D723 /* emo1.png in Resources */,
+				B51C51111C70BDA300B1D723 /* emo2.png in Resources */,
+				B51C51121C70BDA300B1D723 /* emo3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E89D61B1C6E55320090E4D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E89D62A1C6E55320090E4D0 /* ViewController.m in Sources */,
+				7E89D6271C6E55320090E4D0 /* AppDelegate.m in Sources */,
+				7E89D6241C6E55320090E4D0 /* main.m in Sources */,
+				7E97FB121C74EED9004367B5 /* LWOPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E89D6411C6E55330090E4D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E89D64F1C6E55330090E4D0 /* ExtensionDelegate.m in Sources */,
+				7E89D6621C6E56A80090E4D0 /* LWOPerson.m in Sources */,
+				7E89D64C1C6E55330090E4D0 /* InterfaceController.m in Sources */,
+				7E89D6761C6E5C380090E4D0 /* LWORowController.m in Sources */,
+				7E89D6791C6E5F840090E4D0 /* LWODetailIC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E89D6391C6E55330090E4D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E89D6351C6E55330090E4D0 /* LWOListWatch WatchKit App */;
+			targetProxy = 7E89D6381C6E55330090E4D0 /* PBXContainerItemProxy */;
+		};
+		7E89D6481C6E55330090E4D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E89D6441C6E55330090E4D0 /* LWOListWatch WatchKit Extension */;
+			targetProxy = 7E89D6471C6E55330090E4D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E89D62B1C6E55320090E4D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E89D62C1C6E55320090E4D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E89D6301C6E55320090E4D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E89D6311C6E55320090E4D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7E89D63B1C6E55330090E4D0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E89D63C1C6E55330090E4D0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E89D6531C6E55330090E4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E89D6541C6E55330090E4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E89D6561C6E55330090E4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LWOListWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.LWOListWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7E89D6571C6E55330090E4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LWOListWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.LWOListWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7E89D65A1C6E55330090E4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = LWOListWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "LWOListWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.LWOListWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7E89D65B1C6E55330090E4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = LWOListWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "LWOListWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.LWOListWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7E89D65E1C6E55330090E4D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LWOListWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.LWOListWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E89D65F1C6E55330090E4D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LWOListWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = calc.LWOListWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E89D61A1C6E55320090E4D0 /* Build configuration list for PBXProject "LWOListWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E89D6531C6E55330090E4D0 /* Debug */,
+				7E89D6541C6E55330090E4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E89D6551C6E55330090E4D0 /* Build configuration list for PBXNativeTarget "LWOListWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E89D6561C6E55330090E4D0 /* Debug */,
+				7E89D6571C6E55330090E4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E89D6591C6E55330090E4D0 /* Build configuration list for PBXNativeTarget "LWOListWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E89D65A1C6E55330090E4D0 /* Debug */,
+				7E89D65B1C6E55330090E4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E89D65D1C6E55330090E4D0 /* Build configuration list for PBXNativeTarget "LWOListWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E89D65E1C6E55330090E4D0 /* Debug */,
+				7E89D65F1C6E55330090E4D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E89D6171C6E55320090E4D0 /* Project object */;
+}
